@@ -1,4 +1,4 @@
-package com.fet.springboot_demo1;
+package com.fet.springboot_demo1.controllers;
 
 import com.fet.springboot_demo1.service.GreetingService;
 import org.springframework.beans.factory.annotation.Autowired;

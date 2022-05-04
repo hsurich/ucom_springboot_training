@@ -1,11 +1,10 @@
 package com.fet.springboot_demo1;
 
+import com.fet.springboot_demo1.controllers.RootController;
 import com.fet.springboot_demo1.service.GreetingService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.web.servlet.MockMvc;
 
@@ -16,7 +15,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-@WebMvcTest(controllers=RootController.class)
+@WebMvcTest(controllers= RootController.class)
 public class SpringTest3 {
     @Autowired
     private MockMvc mockMvc;

@@ -1,5 +1,6 @@
 package com.fet.springboot_demo1;
 
+import com.fet.springboot_demo1.controllers.RootController;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
