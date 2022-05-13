@@ -29,6 +29,16 @@ dependencies {
 	runtimeOnly 'com.h2database:h2'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// https://mvnrepository.com/artifact/net.bull.javamelody/javamelody-spring-boot-starter
+	//implementation group: 'net.bull.javamelody', name: 'javamelody-spring-boot-starter', version: '1.91.0'
+	implementation 'net.bull.javamelody:javamelody-spring-boot-starter:1.91.0'
+
+	// https://mvnrepository.com/artifact/com.lowagie/itext/2.1.7
+	implementation  'com.lowagie:itext:2.1.7'
+
+	//add prometheus
+	implementation 'io.micrometer:micrometer-registry-prometheus'
 }
 
 tasks.named('test') {
