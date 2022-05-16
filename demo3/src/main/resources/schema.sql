@@ -1,0 +1,2 @@
+DROP TABLE users2 IF EXISTS;
+CREATE TABLE users2(id SERIAL, username VARCHAR(255),email VARCHAR(255))
